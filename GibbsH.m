@@ -1,5 +1,5 @@
 function [Bmean, Bstd, R, SIG] = GibbsH(X, simulaatioita, burnin)
-% Homoskedastic Gibbs sampling for b-terms in y = xb+e. Input is 
+% Homoscedastic Gibbs sampling for b-terms in y = xb+e. Input is 
 % datamatrix X, number of simulations, burn-in number for MCMC. 
 % Gives out mean and standard deviation of b, mean of the residual 
 % and mean of the variance.
